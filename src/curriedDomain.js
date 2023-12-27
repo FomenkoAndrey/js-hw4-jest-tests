@@ -15,11 +15,7 @@
 */
 
 function curriedDomain(protocol) {
-  return function(domainName) {
-    return function(tld) {
-      return `${protocol}://${domainName}.${tld}`
-    }
-  }
+  // code
 }
 
 module.exports = curriedDomain
@@ -29,7 +25,6 @@ module.exports = curriedDomain
 // const domainNameSetter = protocolSetter('example')
 // const fullDomain = domainNameSetter('com') // Повинно повернути 'https://example.com'
 // console.log('Full Domain:', fullDomain)
-
 
 /*
  Ось як працює цей код:

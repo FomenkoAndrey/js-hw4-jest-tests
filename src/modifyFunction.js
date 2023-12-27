@@ -11,13 +11,11 @@
 */
 
 function originalFunction(num) {
-  return num * num // Повертає квадрат аргументу
+  // code
 }
 
 function modifyFunction(originalFunc, multiplier) {
-  return function(arg) {
-    return originalFunc(arg) * multiplier
-  }
+  // code
 }
 
 module.exports = { originalFunction, modifyFunction }
