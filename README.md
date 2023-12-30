@@ -14,10 +14,10 @@
 
 ## 2. Виконуємо задачі для .js файлів
 
-[curriedAdd.js](src%2FcurriedAdd.js)
-[curriedDomain.js](src%2FcurriedDomain.js)
-[modifyFunction.js](src%2FmodifyFunction.js)
-[nestedFunctions.js](src%2FnestedFunctions.js)
+[curriedAdd.js](src%2FcurriedAdd.js),
+[curriedDomain.js](src%2FcurriedDomain.js),
+[modifyFunction.js](src%2FmodifyFunction.js),
+[nestedFunctions.js](src%2FnestedFunctions.js),
 
 ## 3. Запускаємо тести
 
