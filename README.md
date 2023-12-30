@@ -1,4 +1,4 @@
-# ДЗ #1
+# ДЗ #2
 
 ## 1. Завантажуємо репозиторій та розгортаємо проект
 
@@ -14,9 +14,10 @@
 
 ## 2. Виконуємо задачі для .js файлів
 
-[getRandomInt.js](src%2FgetRandomInt.js),
-[greetByName.js](src%2FgreetByName.js),
-[sumBigIntegers.js](src%2FsumBigIntegers.js),
+[curriedAdd.js](src%2FcurriedAdd.js)
+[curriedDomain.js](src%2FcurriedDomain.js)
+[modifyFunction.js](src%2FmodifyFunction.js)
+[nestedFunctions.js](src%2FnestedFunctions.js)
 
 ## 3. Запускаємо тести
 
