@@ -1,4 +1,4 @@
-const curriedDomain = require('./curriedDomain')
+import { curriedDomain } from './curriedDomain'
 
 test('creates full domain https://example.com', () => {
   const protocolSetter = curriedDomain('https')

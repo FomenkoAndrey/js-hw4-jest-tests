@@ -24,8 +24,6 @@ function outerFunction(arg1) {
   return innerFunction
 }
 
-module.exports = outerFunction
-
 // const result = outerFunction(2)(3)(4)
 // console.log(result) // Повинно повернути 24 (2*3*4)
 
@@ -42,15 +40,15 @@ module.exports = outerFunction
 
  ! Функція deepInnerFunction:
  Ця функція є внутрішньою для innerFunction і приймає аргумент arg3.
- Усередині deepInnerFunction, вона використовує аргументи arg1, arg2 та arg3. Цікаво, що deepInnerFunction має доступ до аргументів arg1 та arg2, незважаючи на те, що вона знаходиться в різних областях видимості. Це можливо завдяки замиканням в JavaScript.
+ Всередині deepInnerFunction, вона використовує аргументи arg1, arg2 та arg3. Цікаво, що deepInnerFunction має доступ до аргументів arg1 та arg2, незважаючи на те, що вона знаходиться в різних областях видимості. Це можливо завдяки замиканням в JavaScript.
  deepInnerFunction повертає добуток трьох аргументів.
 
  ? Виклик функцій:
- Коли виконується outerFunction(2)(3)(4), наступне відбувається:
+ Коли виконується outerFunction(2)(3)(4), відбувається наступне:
  * outerFunction(2) викликається і повертає innerFunction.
  * Потім, innerFunction(3) викликається і повертає deepInnerFunction.
  * Нарешті, deepInnerFunction(4) викликається, і вона повертає 2 * 3 * 4, що дорівнює 24.
  console.log(result) виводить результат, 24, у консоль.
-
- Цей код є прикладом могутності замикань у JavaScript, які дозволяють функціям зберігати доступ до змінних з їх лексичного контексту.
 */
+
+export { outerFunction }

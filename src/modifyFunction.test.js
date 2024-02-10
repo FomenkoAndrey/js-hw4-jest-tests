@@ -1,4 +1,4 @@
-const { originalFunction, modifyFunction } = require('./modifyFunction')
+import { modifyFunction, originalFunction } from './modifyFunction'
 
 test('originalFunction returns square of the input', () => {
   expect(originalFunction(3)).toBe(9) // 3 * 3 = 9

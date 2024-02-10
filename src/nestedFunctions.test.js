@@ -1,4 +1,4 @@
-const outerFunction = require('./nestedFunctions')
+import { outerFunction } from './nestedFunctions'
 
 test('multiplies 2 * 3 * 4 to equal 24', () => {
   expect(outerFunction(2)(3)(4)).toBe(24)

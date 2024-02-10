@@ -22,14 +22,11 @@ function curriedDomain(protocol) {
   }
 }
 
-module.exports = curriedDomain
-
 // Приклад використання
 // const protocolSetter = curriedDomain('https')
 // const domainNameSetter = protocolSetter('example')
 // const fullDomain = domainNameSetter('com') // Повинно повернути 'https://example.com'
 // console.log('Full Domain:', fullDomain)
-
 
 /*
  Ось як працює цей код:
@@ -39,3 +36,4 @@ module.exports = curriedDomain
  При третьому виклику остання функція приймає домен верхнього рівня (tld, наприклад, ‘com’, ‘org’) і повертає повне доменне ім’я у форматі protocol://domainName.tld.
 */
 
+export { curriedDomain }
