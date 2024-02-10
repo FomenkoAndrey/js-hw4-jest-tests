@@ -18,8 +18,6 @@ function curriedAdd(a) {
   // code
 }
 
-module.exports = curriedAdd
-
 // Приклад використання
 // const addFirst = curriedAdd(1)
 // const addSecond = addFirst(2)
@@ -32,3 +30,5 @@ module.exports = curriedAdd
  При другому виклику ця повернена функція приймає другий аргумент b і повертає ще одну функцію, яка приймає третій аргумент.
  При третьому виклику остання функція приймає третій аргумент c і повертає суму a + b + c.
 */
+
+export { curriedAdd }

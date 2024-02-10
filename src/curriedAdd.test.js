@@ -1,4 +1,4 @@
-const curriedAdd = require('./curriedAdd')
+import { curriedAdd } from './curriedAdd'
 
 test('adds 1 + 2 + 3 to equal 6', () => {
   expect(curriedAdd(1)(2)(3)).toBe(6)

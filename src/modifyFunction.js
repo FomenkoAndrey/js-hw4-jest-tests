@@ -18,8 +18,6 @@ function modifyFunction(originalFunc, multiplier) {
   // code
 }
 
-module.exports = { originalFunction, modifyFunction }
-
 // Приклад використання
 // const modifiedFunc = modifyFunction(originalFunction, 3)
 // console.log('Original function output for 4:', originalFunction(4)) // Повинно вивести 16
@@ -31,3 +29,5 @@ module.exports = { originalFunction, modifyFunction }
 
  originalFunction(4) повинно повернути 16 (4 * 4), а modifiedFunc(4) повинно повернути 48, оскільки 16 (результат originalFunction) множиться на 3 (множник у modifyFunction).
 */
+
+export { originalFunction, modifyFunction }
